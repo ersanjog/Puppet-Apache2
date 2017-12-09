@@ -42,7 +42,16 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class apache2 {
 
+class apache2 (
+String $package_name = $::apache2::param::package_name,
+String $service_name = $::apache2::param::service_name,
 
+) inherits ::apache2::param {
+class { 'apache2::install': } ->
+class { 'apache2::service': }
 }
+
+
+
+
