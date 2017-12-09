@@ -1,0 +1,15 @@
+{
+  "name": "sanjog-apache2",
+  "version": "0.1.0",
+  "author": "sanjog",
+  "summary": "training",
+  "license": "none",
+  "source": "git@github.com:ersanjog/Puppet-Apache2.git",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
